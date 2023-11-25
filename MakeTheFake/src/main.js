@@ -9,4 +9,5 @@ let config = {
     scene: [ Basics ]
 }
 
+let keyJUMP, keyLEFT, keyRIGHT;
 const game = new Phaser.Game(config)

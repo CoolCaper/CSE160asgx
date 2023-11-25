@@ -14,4 +14,14 @@
                 }, null, this);
             }, null, this);
         }
+
+        
+        if (Phaser.Input.Keyboard.JustDown(this.key_RIGHT)) {
+            this.x++;
+        }
+
+        
+        if (Phaser.Input.Keyboard.JustDown(this.key_LEFT)) {
+            this.x--;
+        }
 */
