@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang = "en">  
+    <head>  
+        <meta charset = "utf-8"/>
+        <title>Draw a blue rectangle (canvas version) </title>
+    </head>
+
+    <body onload="main()">
+        <canvas id="example" width="400"height="400">
+            Please use a browser that supports "canvas."
+        </canvas>
+        <script src="asg0.js"></script>
+        <script src="lib/cuon-matrix-cse160.js"></script>
+        
+        <br>
+        <label for="V1">v1: </label>    
+        <label for="V1X">x</label>
+        <input type="number" id="V1XInp" name="XInp" required minlength="4" maxlength="8" size="10" />        
+        <label for="V1Y">y</label>
+        <input type="number" id="V1YInp" name="YInp" required minlength="4" maxlength="8" size="10" />
+
+        <br>        
+        <label for="V2">v2: </label>
+        <label for="V2X">x</label>
+        <input type="number" id="V2XInp" name="XInp" required minlength="4" maxlength="8" size="10" />        
+        <label for="V2Y">y</label>
+        <input type="number" id="V2YInp" name="YInp" required minlength="4" maxlength="8" size="10" />
+        <br>        
+        <button onclick="handleDrawEvent()">Draw</button>
+
+        <br>
+        <br>
+        <label for="op_lab">Operation:</label>
+        <select name="op" id="op_select">
+            <option value="Add">Add</option>
+            <option value="Multiply">Multiply</option>
+            <option value="Divide">Divide</option>
+            <option value="Subtract">Subtract</option>
+            <option value="Magnitude">Magnitude</option>
+            <option value="norm">Normalize</option>
+            <option value="angle">Angle between</option>
+            <option value="area">Area</option>
+        </select>
+
+        <label for="scale">Scalar:</label>
+        <input type="number" id="scale" name="scaleInp" required minlength="4" maxlength="8" size="10" />    
+
+        
+        <br>
+        <button onclick="handleDrawOperationEvent()">Draw</button>
+        <br>
+        <p>Shauna Mahoney</p>
+        <p>smmahone@ucsc.edu</p>
+    </body>
+</html>

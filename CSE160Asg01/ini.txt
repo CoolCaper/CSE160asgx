@@ -1,0 +1,320 @@
+[/Script/EngineSettings.GameMapsSettings]
+EditorStartupMap=None
+GameDefaultMap=/Game/Maps/Title/MAP_SplashScreen.MAP_SplashScreen
+GameDefaultMap=/Game/Maps/Title/MAP_SplashScreen.MAP_SplashScreen
++ActiveClassRedirects=(OldClassName="TP_BlankGameModeBase",NewClassName="fnaf9GameModeBase")
+NearClipPlane=1.000000
+GlobalDefaultGameMode=/Game/Blueprints/System/GameModes/MainGameGM.MainGameGM_C
+GameInstanceClass=/Game/Blueprints/System/FNAFGameInstance.FNAFGameInstance_C
+
+[/Script/HardwareTargeting.HardwareTargetingSettings]
+TargetedHardwareClass=Desktop
+AppliedTargetedHardwareClass=Desktop
+DefaultGraphicsPerformance=Maximum
+AppliedDefaultGraphicsPerformance=Maximum
+
+[/Script/Engine.PhysicsSettings]
+PhysicErrorCorrection=(PingExtrapolation=0.100000,PingLimit=100.000000,ErrorPerLinearDifference=1.000000,ErrorPerAngularDifference=1.000000,MaxRestoredStateError=1.000000,MaxLinearHardSnapDistance=400.000000,PositionLerp=0.000000,AngleLerp=0.400000,LinearVelocityCoefficient=100.000000,AngularVelocityCoefficient=10.000000,ErrorAccumulationSeconds=0.500000,ErrorAccumulationDistanceSq=15.000000,ErrorAccumulationSimilarity=100.000000)
+DefaultDegreesOfFreedom=Full3D
+bSuppressFaceRemapTable=False
+bSupportUVFromHitResults=False
+bDisableActiveActors=False
+bDisableKinematicStaticPairs=False
+bDisableKinematicKinematicPairs=False
+bDisableCCD=False
+bEnableEnhancedDeterminism=False
+AnimPhysicsMinDeltaTime=0.000000
+bSimulateAnimPhysicsAfterReset=False
+MaxPhysicsDeltaTime=0.033333
+bSubstepping=False
+bSubsteppingAsync=False
+MaxSubstepDeltaTime=0.016667
+MaxSubsteps=6
+SyncSceneSmoothingFactor=0.000000
+InitialAverageFrameRate=0.016667
+PhysXTreeRebuildRate=10
++PhysicalSurfaces=(Type=SurfaceType1,Name="Tile")
++PhysicalSurfaces=(Type=SurfaceType2,Name="Carpet")
++PhysicalSurfaces=(Type=SurfaceType3,Name="VentMetal")
++PhysicalSurfaces=(Type=SurfaceType4,Name="Steel")
++PhysicalSurfaces=(Type=SurfaceType5,Name="Concrete")
++PhysicalSurfaces=(Type=SurfaceType6,Name="Water")
++PhysicalSurfaces=(Type=SurfaceType7,Name="Mud")
++PhysicalSurfaces=(Type=SurfaceType8,Name="Dirt")
++PhysicalSurfaces=(Type=SurfaceType9,Name="Wood")
++PhysicalSurfaces=(Type=SurfaceType10,Name="Cardboard")
++PhysicalSurfaces=(Type=SurfaceType11,Name="BallPit")
++PhysicalSurfaces=(Type=SurfaceType12,Name="Glass")
++PhysicalSurfaces=(Type=SurfaceType13,Name="HardPlastic")
++PhysicalSurfaces=(Type=SurfaceType14,Name="Debris")
++PhysicalSurfaces=(Type=SurfaceType15,Name="Vinyl")
++PhysicalSurfaces=(Type=SurfaceType16,Name="Metal")
++PhysicalSurfaces=(Type=SurfaceType17,Name="Rubber")
++PhysicalSurfaces=(Type=SurfaceType18,Name="Wood_Creaky")
++PhysicalSurfaces=(Type=SurfaceType19,Name="Organic_Garbage")
++PhysicalSurfaces=(Type=SurfaceType20,Name="Fatigue_Mat")
++PhysicalSurfaces=(Type=SurfaceType21,Name="Roach_Layer")
++PhysicalSurfaces=(Type=SurfaceType22,Name="Tarp")
++PhysicalSurfaces=(Type=SurfaceType23,Name="ChowdaBalls")
++PhysicalSurfaces=(Type=SurfaceType24,Name="RedTideWater")
++PhysicalSurfaces=(Type=SurfaceType25,Name="ChainlinkFence")
++PhysicalSurfaces=(Type=SurfaceType26,Name="Paper")
++PhysicalSurfaces=(Type=SurfaceType27,Name="LooseMetal")
++PhysicalSurfaces=(Type=SurfaceType28,Name="StickyTile")
++PhysicalSurfaces=(Type=SurfaceType29,Name="ARFloor")
++PhysicalSurfaces=(Type=SurfaceType30,Name="FloodWater")
+DefaultBroadphaseSettings=(bUseMBPOnClient=False,bUseMBPOnServer=False,bUseMBPOuterBounds=False,MBPBounds=(Min=(X=0.000000,Y=0.000000,Z=0.000000),Max=(X=0.000000,Y=0.000000,Z=0.000000),IsValid=0),MBPOuterBounds=(Min=(X=0.000000,Y=0.000000,Z=0.000000),Max=(X=0.000000,Y=0.000000,Z=0.000000),IsValid=0),MBPNumSubdivs=2)
+MinDeltaVelocityForHitEvents=0.000000
+ChaosSettings=(DefaultThreadingModel=TaskGraph,DedicatedThreadTickMode=VariableCappedWithTarget,DedicatedThreadBufferMode=Double)
+
+[/Script/NavigationSystem.RecastNavMesh]
+CellSize=1.000000
+AgentRadius=35.000000
+TileSizeUU=560.000000
+CellHeight=1.600000
+MaxSimplificationError=5.000000
+AgentMaxSlope=89.000000
+DrawOffset=10.000000
+AgentHeight=413.000000
+AgentMaxStepHeight=50.000000
+bFixedTilePoolSize=False
+TilePoolSize=5000000
+RegionPartitioning=Watershed
+LayerPartitioning=Watershed
+bDoFullyAsyncNavDataGathering=False
+RuntimeGeneration=DynamicModifiersOnly
+TileNumberHardLimit=16777216
+bForceRebuildOnLoad=True
+bAutoDestroyWhenNoNavigation=False
+MaxSimultaneousTileGenerationJobsCount=1024
+MergeRegionSize=400.000000
+bMarkLowHeightAreas=False
+bCanBeMainNavData=False
+bDrawPolyEdges=True
+
+[/Script/Engine.RendererSettings]
+r.DefaultFeature.AutoExposure=False
+r.SkinCache.CompileShaders=True
+r.RayTracing=False
+r.SSGI.Enable=False
+r.AllowGlobalClipPlane=True
+r.DefaultFeature.AntiAliasing=2
+r.AnisotropicBRDF=False
+r.AllowOcclusionQueries=True
+r.GenerateMeshDistanceFields=True
+r.ReflectionCaptureResolution=128
+r.ForceDebugViewModes=1
+r.NGX.AppId=100767411
+r.ReflectionEnvironmentLightmapMixBasedOnRoughness=False
+r.Shadow.UnbuiltPreviewInGame=False
+r.DistanceFieldBuild.Compress=False
+r.CustomDepth=3
+r.VirtualTextures=True
+r.VT.EnableAutoImport=False
+
+[/Script/WindowsTargetPlatform.WindowsTargetSettings]
+DefaultGraphicsRHI=DefaultGraphicsRHI_DX12
+
+[/Script/Engine.AudioSettings]
+DefaultSoundClassName=/Game/Audio/SoundClasses/MasterSound.MasterSound
+DefaultMediaSoundClassName=/Game/Audio/SoundClasses/MasterSound.MasterSound
+
+[/Script/NavigationSystem.NavigationSystemV1]
+DefaultAgentName=World
+CrowdManagerClass=/Script/AIModule.CrowdManager
+bAutoCreateNavigationData=False
+bSpawnNavDataInNavBoundsLevel=False
+bAllowClientSideNavigation=False
+bShouldDiscardSubLevelNavData=True
+bTickWhilePaused=False
+bInitialBuildingLocked=False
+bSkipAgentHeightCheckWhenPickingNavData=False
+bGenerateNavigationOnlyAroundNavigationInvokers=False
+ActiveTilesUpdateInterval=1.000000
+DataGatheringMode=Instant
+DirtyAreaWarningSizeThreshold=-1.000000
++SupportedAgents=(Name="World",Color=(B=0,G=255,R=140,A=164),DefaultQueryExtent=(X=50.000000,Y=50.000000,Z=250.000000),NavDataClass=/Script/NavigationSystem.RecastNavMesh,AgentRadius=40.000000,AgentHeight=144.000000,AgentStepHeight=-1.000000,NavWalkingSearchHeightScale=0.500000,PreferredNavData=/Script/NavigationSystem.RecastNavMesh,bCanCrouch=False,bCan
++SupportedAgents=(Name="PrincessQuest",Color=(B=255,G=245,R=0,A=164),DefaultQueryExtent=(X=50.000000,Y=50.000000,Z=250.000000),NavDataClass=/Script/NavigationSystem.RecastNavMesh,AgentRadius=5.000000,AgentHeight=144.000000,AgentStepHeight=-1.000000,NavWalkingSearchHeightScale=0.500000,PreferredNavData=/Script/NavigationSystem.RecastNavMesh,bCanCrouch=False,bCanJump=False,bCanWalk=False,bCanSwim=False,bCanFly=False)
++SupportedAgents=(Name="DLC",Color=(B=142,G=255,R=169,A=164),DefaultQueryExtent=(X=50.000000,Y=50.000000,Z=250.000000),NavDataClass=/Script/NavigationSystem.RecastNavMesh,AgentRadius=33.000000,AgentHeight=60.000000,AgentStepHeight=-1.000000,NavWalkingSearchHeightScale=0.500000,PreferredNavData=/Script/NavigationSystem.RecastNavMesh,bCanCrouch=False,bCanJump=False,bCanWalk=False,bCanSwim=False,bCanFly=False)
+SupportedAgentsMask=(bSupportsAgent0=True,bSupportsAgent1=True,bSupportsAgent2=True,bSupportsAgent3=False,bSupportsAgent4=True,bSupportsAgent5=True,bSupportsAgent6=True,bSupportsAgent7=True,bSupportsAgent8=True,bSupportsAgent9=True,bSupportsAgent10=True,bSupportsAgent11=True,bSupportsAgent12=True,bSupportsAgent13=True,bSupportsAgent14=True,bSupportsAgent15=True)
+DirtyAreasUpdateFreq=60.000000
+
+[/Script/LuminRuntimeSettings.LuminRuntimeSettings]
+IconModelPath=(Path="")
+IconPortalPath=(Path="")
+
+[/Script/Engine.CollisionProfile]
+-Profiles=(Name="NoCollision",CollisionEnabled=NoCollision,ObjectTypeName="WorldStatic",CustomResponses=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore)),HelpMessage="No collision",bCanModify=False)
+-Profiles=(Name="BlockAll",CollisionEnabled=QueryAndPhysics,ObjectTypeName="WorldStatic",CustomResponses=,HelpMessage="WorldStatic object that blocks all actors by default. All new custom channels will use its own default response. ",bCanModify=False)
+-Profiles=(Name="OverlapAll",CollisionEnabled=QueryOnly,ObjectTypeName="WorldStatic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Overlap),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldStatic object that overlaps all actors by default. All new custom channels will use its own default response. ",bCanModify=False)
+-Profiles=(Name="BlockAllDynamic",CollisionEnabled=QueryAndPhysics,ObjectTypeName="WorldDynamic",CustomResponses=,HelpMessage="WorldDynamic object that blocks all actors by default. All new custom channels will use its own default response. ",bCanModify=False)
+-Profiles=(Name="OverlapAllDynamic",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Overlap),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldDynamic object that overlaps all actors by default. All new custom channels will use its own default response. ",bCanModify=False)
+-Profiles=(Name="IgnoreOnlyPawn",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="Pawn",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore)),HelpMessage="WorldDynamic object that ignores Pawn and Vehicle. All other channels will be set to default.",bCanModify=False)
+-Profiles=(Name="OverlapOnlyPawn",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="Pawn",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Ignore)),HelpMessage="WorldDynamic object that overlaps Pawn, Camera, and Vehicle. All other channels will be set to default. ",bCanModify=False)
+-Profiles=(Name="Pawn",CollisionEnabled=QueryAndPhysics,ObjectTypeName="Pawn",CustomResponses=((Channel="Visibility",Response=ECR_Ignore)),HelpMessage="Pawn object. Can be used for capsule of any playerable character or AI. ",bCanModify=False)
+-Profiles=(Name="Spectator",CollisionEnabled=QueryOnly,ObjectTypeName="Pawn",CustomResponses=((Channel="WorldStatic",Response=ECR_Block),(Channel="Pawn",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore),(Channel="WorldDynamic",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore),(Channel="PhysicsBody",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore),(Channel="Destructible",Response=ECR_Ignore)),HelpMessage="Pawn object that ignores all other actors except WorldStatic.",bCanModify=False)
+-Profiles=(Name="CharacterMesh",CollisionEnabled=QueryOnly,ObjectTypeName="Pawn",CustomResponses=((Channel="Pawn",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore)),HelpMessage="Pawn object that is used for Character Mesh. All other channels will be set to default.",bCanModify=False)
+-Profiles=(Name="PhysicsActor",CollisionEnabled=QueryAndPhysics,ObjectTypeName="PhysicsBody",CustomResponses=,HelpMessage="Simulating actors",bCanModify=False)
+-Profiles=(Name="Destructible",CollisionEnabled=QueryAndPhysics,ObjectTypeName="Destructible",CustomResponses=,HelpMessage="Destructible actors",bCanModify=False)
+-Profiles=(Name="InvisibleWall",CollisionEnabled=QueryAndPhysics,ObjectTypeName="WorldStatic",CustomResponses=((Channel="Visibility",Response=ECR_Ignore)),HelpMessage="WorldStatic object that is invisible.",bCanModify=False)
+-Profiles=(Name="InvisibleWallDynamic",CollisionEnabled=QueryAndPhysics,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="Visibility",Response=ECR_Ignore)),HelpMessage="WorldDynamic object that is invisible.",bCanModify=False)
+-Profiles=(Name="Trigger",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Ignore),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldDynamic object that is used for trigger. All other channels will be set to default.",bCanModify=False)
+-Profiles=(Name="Ragdoll",CollisionEnabled=QueryAndPhysics,ObjectTypeName="PhysicsBody",CustomResponses=((Channel="Pawn",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore)),HelpMessage="Simulating Skeletal Mesh Component. All other channels will be set to default.",bCanModify=False)
+-Profiles=(Name="Vehicle",CollisionEnabled=QueryAndPhysics,ObjectTypeName="Vehicle",CustomResponses=,HelpMessage="Vehicle object that blocks Vehicle, WorldStatic, and WorldDynamic. All other channels will be set to default.",bCanModify=False)
+-Profiles=(Name="UI",CollisionEnabled=QueryOnly,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Block),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldStatic object that overlaps all actors by default. All new custom channels will use its own default response. ",bCanModify=False)
++Profiles=(Name="NoCollision",CollisionEnabled=NoCollision,bCanModify=False,ObjectTypeName="WorldStatic",CustomResponses=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore)),HelpMessage="No collision")
++Profiles=(Name="BlockAll",CollisionEnabled=QueryAndPhysics,bCanModify=False,ObjectTypeName="WorldStatic",CustomResponses=,HelpMessage="WorldStatic object that blocks all actors by default. All new custom channels will use its own default response. ")
++Profiles=(Name="OverlapAll",CollisionEnabled=QueryOnly,bCanModify=False,ObjectTypeName="WorldStatic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Overlap),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldStatic object that overlaps all actors by default. All new custom channels will use its own default response. ")
++Profiles=(Name="BlockAllDynamic",CollisionEnabled=QueryAndPhysics,bCanModify=False,ObjectTypeName="WorldDynamic",CustomResponses=,HelpMessage="WorldDynamic object that blocks all actors by default. All new custom channels will use its own default response. ")
++Profiles=(Name="OverlapAllDynamic",CollisionEnabled=QueryOnly,bCanModify=False,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Overlap),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldDynamic object that overlaps all actors by default. All new custom channels will use its own default response. ")
++Profiles=(Name="IgnoreOnlyPawn",CollisionEnabled=QueryOnly,bCanModify=False,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="Pawn",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore)),HelpMessage="WorldDynamic object that ignores Pawn and Vehicle. All other channels will be set to default.")
++Profiles=(Name="OverlapOnlyPawn",CollisionEnabled=QueryOnly,bCanModify=False,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="Pawn",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Ignore)),HelpMessage="WorldDynamic object that overlaps Pawn, Camera, and Vehicle. All other channels will be set to default. ")
++Profiles=(Name="Pawn",CollisionEnabled=QueryAndPhysics,bCanModify=False,ObjectTypeName="Pawn",CustomResponses=((Channel="Visibility",Response=ECR_Ignore)),HelpMessage="Pawn object. Can be used for capsule of any playerable character or AI. ")
++Profiles=(Name="Spectator",CollisionEnabled=QueryOnly,bCanModify=False,ObjectTypeName="Pawn",CustomResponses=((Channel="WorldStatic"),(Channel="Pawn",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore),(Channel="WorldDynamic",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore),(Channel="PhysicsBody",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore),(Channel="Destructible",Response=ECR_Ignore)),HelpMessage="Pawn object that ignores all other actors except WorldStatic.")
++Profiles=(Name="CharacterMesh",CollisionEnabled=QueryOnly,bCanModify=False,ObjectTypeName="Pawn",CustomResponses=((Channel="Pawn",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore)),HelpMessage="Pawn object that is used for Character Mesh. All other channels will be set to default.")
++Profiles=(Name="PhysicsActor",CollisionEnabled=QueryAndPhysics,bCanModify=False,ObjectTypeName="PhysicsBody",CustomResponses=,HelpMessage="Simulating actors")
++Profiles=(Name="Destructible",CollisionEnabled=QueryAndPhysics,bCanModify=False,ObjectTypeName="Destructible",CustomResponses=,HelpMessage="Destructible actors")
++Profiles=(Name="InvisibleWall",CollisionEnabled=QueryAndPhysics,bCanModify=False,ObjectTypeName="WorldStatic",CustomResponses=((Channel="Visibility",Response=ECR_Ignore)),HelpMessage="WorldStatic object that is invisible.")
++Profiles=(Name="InvisibleWallDynamic",CollisionEnabled=QueryAndPhysics,bCanModify=False,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="Visibility",Response=ECR_Ignore)),HelpMessage="WorldDynamic object that is invisible.")
++Profiles=(Name="Trigger",CollisionEnabled=QueryOnly,bCanModify=False,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility",Response=ECR_Ignore),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldDynamic object that is used for trigger. All other channels will be set to default.")
++Profiles=(Name="Ragdoll",CollisionEnabled=QueryAndPhysics,bCanModify=False,ObjectTypeName="PhysicsBody",CustomResponses=((Channel="Pawn",Response=ECR_Ignore),(Channel="Visibility",Response=ECR_Ignore)),HelpMessage="Simulating Skeletal Mesh Component. All other channels will be set to default.")
++Profiles=(Name="Vehicle",CollisionEnabled=QueryAndPhysics,bCanModify=False,ObjectTypeName="Vehicle",CustomResponses=,HelpMessage="Vehicle object that blocks Vehicle, WorldStatic, and WorldDynamic. All other channels will be set to default.")
++Profiles=(Name="UI",CollisionEnabled=QueryOnly,bCanModify=False,ObjectTypeName="WorldDynamic",CustomResponses=((Channel="WorldStatic",Response=ECR_Overlap),(Channel="Pawn",Response=ECR_Overlap),(Channel="Visibility"),(Channel="WorldDynamic",Response=ECR_Overlap),(Channel="Camera",Response=ECR_Overlap),(Channel="PhysicsBody",Response=ECR_Overlap),(Channel="Vehicle",Response=ECR_Overlap),(Channel="Destructible",Response=ECR_Overlap)),HelpMessage="WorldStatic object that overlaps all actors by default. All new custom channels will use its own default response. ")
++Profiles=(Name="Player",CollisionEnabled=QueryAndPhysics,bCanModify=True,ObjectTypeName="Player",CustomResponses=,HelpMessage="Default setup for the player")
++Profiles=(Name="NoPlayerCollision",CollisionEnabled=QueryOnly,bCanModify=True,ObjectTypeName="WorldStatic",CustomResponses=((Channel="WorldStatic",Response=ECR_Ignore),(Channel="WorldDynamic",Response=ECR_Ignore),(Channel="Pawn",Response=ECR_Ignore),(Channel="PhysicsBody",Response=ECR_Ignore),(Channel="Vehicle",Response=ECR_Ignore),(Channel="Destructible",Response=ECR_Ignore),(Channel="Player",Response=ECR_Ignore),(Channel="Ballpit",Response=ECR_Ignore)),HelpMessage="No Player Collision")
++Profiles=(Name="NoVisibilityCollision",CollisionEnabled=QueryOnly,bCanModify=True,ObjectTypeName="WorldStatic",CustomResponses=((Channel="Visibility",Response=ECR_Ignore),(Channel="Camera",Response=ECR_Ignore)),HelpMessage="No Visibility Collision")
++DefaultChannelResponses=(Channel=ECC_GameTraceChannel1,DefaultResponse=ECR_Block,bTraceType=False,bStaticObject=False,Name="Player")
++DefaultChannelResponses=(Channel=ECC_GameTraceChannel2,DefaultResponse=ECR_Block,bTraceType=False,bStaticObject=False,Name="Ballpit")
++DefaultChannelResponses=(Channel=ECC_GameTraceChannel3,DefaultResponse=ECR_Ignore,bTraceType=True,bStaticObject=False,Name="UI")
++EditProfiles=(Name="UI",CustomResponses=((Channel="Player",Response=ECR_Overlap),(Channel="UI")))
++EditProfiles=(Name="OverlapAll",CustomResponses=((Channel="Player",Response=ECR_Overlap)))
++EditProfiles=(Name="OverlapAllDynamic",CustomResponses=((Channel="Player",Response=ECR_Overlap)))
++EditProfiles=(Name="Spectator",CustomResponses=((Channel="Player",Response=ECR_Ignore)))
++EditProfiles=(Name="CharacterMesh",CustomResponses=((Channel="Player",Response=ECR_Ignore)))
++EditProfiles=(Name="Trigger",CustomResponses=((Channel="Player",Response=ECR_Overlap)))
++EditProfiles=(Name="Ragdoll",CustomResponses=((Channel="Player",Response=ECR_Ignore)))
+-ProfileRedirects=(OldName="BlockingVolume",NewName="InvisibleWall")
+-ProfileRedirects=(OldName="InterpActor",NewName="IgnoreOnlyPawn")
+-ProfileRedirects=(OldName="StaticMeshComponent",NewName="BlockAllDynamic")
+-ProfileRedirects=(OldName="SkeletalMeshActor",NewName="PhysicsActor")
+-ProfileRedirects=(OldName="InvisibleActor",NewName="InvisibleWallDynamic")
++ProfileRedirects=(OldName="BlockingVolume",NewName="InvisibleWall")
++ProfileRedirects=(OldName="InterpActor",NewName="IgnoreOnlyPawn")
++ProfileRedirects=(OldName="StaticMeshComponent",NewName="BlockAllDynamic")
++ProfileRedirects=(OldName="SkeletalMeshActor",NewName="PhysicsActor")
++ProfileRedirects=(OldName="InvisibleActor",NewName="InvisibleWallDynamic")
+-CollisionChannelRedirects=(OldName="Static",NewName="WorldStatic")
+-CollisionChannelRedirects=(OldName="Dynamic",NewName="WorldDynamic")
+-CollisionChannelRedirects=(OldName="VehicleMovement",NewName="Vehicle")
+-CollisionChannelRedirects=(OldName="PawnMovement",NewName="Pawn")
++CollisionChannelRedirects=(OldName="Static",NewName="WorldStatic")
++CollisionChannelRedirects=(OldName="Dynamic",NewName="WorldDynamic")
++CollisionChannelRedirects=(OldName="VehicleMovement",NewName="Vehicle")
++CollisionChannelRedirects=(OldName="PawnMovement",NewName="Pawn")
+
+[/Script/RTXGI.RTXGIPluginSettings]
+DebugProbeRadius=15.000000
+IrradianceBits=n10
+
+[/Script/Engine.StreamingSettings]
+s.AsyncLoadingTimeLimit=50.000000
+s.AsyncLoadingUseFullTimeLimit=False
+s.PriorityAsyncLoadingExtraTime=15.000000
+s.LevelStreamingComponentsUnregistrationGranularity=5
+s.PriorityLevelStreamingActorsUpdateExtraTime=20.000000
+s.LevelStreamingActorsUpdateTimeLimit=20.000000
+s.LevelStreamingComponentsRegistrationGranularity=5
+s.UnregisterComponentsTimeLimit=10.000000
+s.EventDrivenLoaderEnabled=True
+s.UseBackgroundLevelStreaming=True
+s.AsyncLoadingThreadEnabled=True
+
+[/Script/UnrealEd.CookerSettings]
+bIterativeCookingForLaunchOn=True
+bIterativeCookingForFileCookContent=True
+bCookOnTheFlyForLaunchOn=True
+bEnableCookOnTheSide=True
+
+[EnumRemap]
+TEXTUREGROUP_Project01.DisplayName=LOW
+TEXTUREGROUP_Project02.DisplayName=MED
+TEXTUREGROUP_Project03.DisplayName=HIGH
+TEXTUREGROUP_Project04.DisplayName=VERYHIGH
+TEXTUREGROUP_Project05.DisplayName=EXTREME!!
+TEXTUREGROUP_Project06.DisplayName=VERYLOW:(
+
+[CoreRedirects]
++PropertyRedirects=(OldName="/Script/fnaf9.FNAFInventorySystem.AvailablePartyPasses",NewName="/Script/fnaf9.FNAFInventorySystem.CollectedPartyPassCount")
++PropertyRedirects=(OldName="/Script/fnaf9.FNAFInventorySystem.bHasAvailableFlash",NewName="/Script/fnaf9.FNAFInventorySystem.NumAvailableFlash")
+
+[/Script/AIModule.CrowdManager]
+bResolveCollisions=True
+
+[/Script/Engine.GarbageCollectionSettings]
+gc.MultithreadedDestructionEnabled=True
+gc.ActorClusteringEnabled=True
+gc.BlueprintClusteringEnabled=False
+gc.FlushStreamingOnGC=False
+
+[/Script/Engine.Engine]
+bSmoothFrameRate=False
+bUseFixedFrameRate=False
+GameUserSettingsClassName=/Script/fnaf9.FNAFGameUserSettings
+
+[/Script/Engine.GameEngine]
++NetDriverDefinitions=(DefName="GameNetDriver",DriverClassName="OnlineSubsystemSteam.SteamNetDriver",DriverClassNameFallback="OnlineSubsystemUtils.IpNetDriver")
+
+[OnlineSubsystem]
+DefaultPlatformService=Steam
+
+[OnlineSubsystemSteam]
+bEnabled=true
+SteamDevAppId=747660
+bRelaunchInSteam=True
+Achievement_0_Id=ACH_TROPHY
+Achievement_1_Id=ACH_SHATTERED
+Achievement_2_Id=ACH_PAR
+Achievement_3_Id=ACH_VIP
+Achievement_4_Id=ACH_SURPRISE
+Achievement_5_Id=ACH_SUPERSTAR
+Achievement_6_Id=ACH_SECURITY
+Achievement_7_Id=ACH_PARTY
+Achievement_8_Id=ACH_DODGE
+Achievement_9_Id=ACH_UP
+Achievement_10_Id=ACH_DESSERT
+Achievement_11_Id=ACH_SWORD
+Achievement_12_Id=ACH_CHEESE
+Achievement_13_Id=ACH_SUGAR
+Achievement_14_Id=ACH_HECKLER
+Achievement_15_Id=ACH_FUN
+Achievement_16_Id=ACH_OPA
+Achievement_17_Id=ACH_HAZARD
+Achievement_18_Id=ACH_SPEAK
+Achievement_19_Id=ACH_SEE
+Achievement_20_Id=ACH_CLAW
+Achievement_21_Id=ACH_ME
+Achievement_22_Id=ACH_ALARM
+Achievement_23_Id=ACH_WUB
+Achievement_24_Id=ACH_SLEEPOVER
+Achievement_25_Id=ACH_PIZZA
+Achievement_26_Id=ACH_LAZER
+Achievement_27_Id=ACH_FOUND
+Achievement_28_Id=ACH_HIDE
+
+[/Script/OnlineSubsystemSteam.SteamNetDriver]
+NetConnectionClassName=OnlineSubsystemSteam.SteamNetConnection
+
+[ConsoleVariables]
+r.StaticMesh.StripMinLodDataDuringCooking=1
+r.SkeletalMesh.StripMinLodDataDuringCooking=1
+
+[/Script/Engine.UserInterfaceSettings]
+RenderFocusRule=Never
+HardwareCursors=()
+SoftwareCursors=((Default, /Game/Blueprints/UI/ControllerIcons/MouseCursorUI.MouseCursorUI_C),(Hand, /Game/Blueprints/UI/ControllerIcons/MouseCursorUI.MouseCursorUI_C),(ResizeUpDown, /Game/Blueprints/UI/ControllerIcons/MouseCursorUI.MouseCursorUI_C),(ResizeLeftRight, /Game/Blueprints/UI/ControllerIcons/MouseCursorUI.MouseCursorUI_C))
+ApplicationScale=1.000000
+UIScaleRule=ShortestSide
+CustomScalingRuleClass=None
+UIScaleCurve=(EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000)),DefaultValue=340282346638528859811704183484516925440.000000,PreInfinityExtrap=RCCE_Constant,PostInfinityExtrap=RCCE_Constant),ExternalCurve=None)
+bAllowHighDPIInGameMode=False
+bLoadWidgetsOnDedicatedServer=True
